@@ -1,0 +1,55 @@
+
+label{
+    color: white;
+    font-size: 1.5rem;
+}
+.back{
+    background-color: black;
+    padding-top: 7rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-left: 30rem;
+    padding-bottom: 5rem;
+    width: 50%;
+    max-width: 600px;
+
+}
+form label{
+    margin-bottom: .5rem;
+}
+form input {
+    margin-bottom: 1rem;
+    padding: 10px 18px;
+    font-size: 1.5rem;
+    font-family:'Outline', sans-serif;
+    background: rgba(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255, .1);
+    color: white;
+}
+.guest{
+    color: aliceblue;
+    width:30%;
+    padding-top: 4rem;
+    margin-left: 10rem;
+    padding-bottom: 15rem;
+    font-size: 1.7rem;
+}
+@media screen and (max-width:440px){
+    
+    form{
+        width: 100%;
+       margin-left: 5rem;
+
+    }
+   
+}
+@media  screen and (max-width:1130px) {
+    form{
+        margin-left: 8rem;
+        
+    }
+}
